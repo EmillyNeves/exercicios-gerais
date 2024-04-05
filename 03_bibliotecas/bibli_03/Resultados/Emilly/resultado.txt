@@ -1,0 +1,17 @@
+Arquivos Esperados Corretos: 3 de 3
+Pastas Compiladas Corretamente: 3 de 3 
+Pastas Linkadas Corretamente: 1 de 3
+Teste main
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de Emilly para o teste main: 0
+Teste completo
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de Emilly para o teste completo: 0
+Teste data
+  - Resultados corretos: 1 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Emilly para o teste data: .53
+Nota de Emilly: 0+(0)+(0)+(.53)
+Nota de Emilly: .53
