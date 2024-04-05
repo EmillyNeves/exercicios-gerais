@@ -1,1 +1,4 @@
-valgrind: Resultados/Emilly/completo/prog: No such file or directory
+Primeira data: 15 de Julho de  2006
+Segunda data: 15 de Julho de  2006
+As datas sao iguais
+A diferenca em dias entre as datas eh: 00 dias
