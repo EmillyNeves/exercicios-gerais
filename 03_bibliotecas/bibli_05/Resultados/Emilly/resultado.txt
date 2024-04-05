@@ -1,5 +1,5 @@
-Arquivos Esperados Corretos: 3 de 3
-Pastas Compiladas Corretamente: 3 de 3 
+Arquivos Esperados Corretos: 2 de 3
+Pastas Compiladas Corretamente: 2 de 3 
 Pastas Linkadas Corretamente: 1 de 3
 Teste main
   - Resultados corretos: 0 de 4

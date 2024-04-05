@@ -1,0 +1,2 @@
+cc1: fatal error: *.c: Arquivo ou diretório inexistente
+compilation terminated.

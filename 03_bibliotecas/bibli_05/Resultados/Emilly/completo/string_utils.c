@@ -3,7 +3,7 @@
 int string_length(char *str)
 {
     int i = 0;
-    while (str[i] != "\0")
+    while (str[i] != '\0')
     {
         i++;
     }
@@ -12,7 +12,7 @@ int string_length(char *str)
 
 void string_copy(char *src, char *dest)
 {
-    for (int i = 0; src[i] != "\0"; i++)
+    for (int i = 0; src[i] != '\0'; i++)
     {
         dest[i] = src[i];
     }
@@ -20,7 +20,7 @@ void string_copy(char *src, char *dest)
 
 void string_upper(char *str)
 {
-    for (int i = 0; str[i] != "\0"; i++)
+    for (int i = 0; str[i] != '\0'; i++)
     {
         str[i] -= 32;
     }
@@ -28,7 +28,7 @@ void string_upper(char *str)
 
 void string_lower(char *str)
 {
-    for (int i = 0; str[i] != "\0"; i++)
+    for (int i = 0; str[i] != '\0'; i++)
     {
         str[i] += 32;
     }
