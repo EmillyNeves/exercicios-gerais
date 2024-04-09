@@ -1,6 +1,6 @@
-Arquivos Esperados Corretos: 2 de 3
-Pastas Compiladas Corretamente: 2 de 3 
-Pastas Linkadas Corretamente: 1 de 3
+Arquivos Esperados Corretos: 3 de 3
+Pastas Compiladas Corretamente: 3 de 3 
+Pastas Linkadas Corretamente: 3 de 3
 Teste main
   - Resultados corretos: 0 de 4
   - Valgrinds corretos: 0 de 4
@@ -11,7 +11,7 @@ Teste completo
 Nota de Emilly para o teste completo: 0
 Teste string_utils
   - Resultados corretos: 0 de 4
-  - Valgrinds corretos: 0 de 4
+  - Valgrinds corretos: 2 de 4
 Nota de Emilly para o teste string_utils: 0
 Nota de Emilly: 0+(0)+(0)+(0)
 Nota de Emilly: 0

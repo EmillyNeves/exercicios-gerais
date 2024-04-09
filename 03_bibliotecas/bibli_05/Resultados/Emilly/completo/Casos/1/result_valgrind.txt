@@ -1,0 +1,30 @@
+==74282== Memcheck, a memory error detector
+==74282== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==74282== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==74282== Command: Resultados/Emilly/completo/prog Resultados/Emilly/completo/Casos/1
+==74282== Parent PID: 74281
+==74282== 
+==74282== Conditional jump or move depends on uninitialised value(s)
+==74282==    at 0x1094D9: string_copy (in /home/emi/Área de Trabalho/exercicios-gerais/03_bibliotecas/bibli_05/Resultados/Emilly/completo/prog)
+==74282==    by 0x109358: main (in /home/emi/Área de Trabalho/exercicios-gerais/03_bibliotecas/bibli_05/Resultados/Emilly/completo/prog)
+==74282== 
+==74282== Conditional jump or move depends on uninitialised value(s)
+==74282==    at 0x484ED28: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==74282==    by 0x48E5D30: __vfprintf_internal (vfprintf-internal.c:1517)
+==74282==    by 0x48CF79E: printf (printf.c:33)
+==74282==    by 0x109376: main (in /home/emi/Área de Trabalho/exercicios-gerais/03_bibliotecas/bibli_05/Resultados/Emilly/completo/prog)
+==74282== 
+==74282== Conditional jump or move depends on uninitialised value(s)
+==74282==    at 0x10952E: string_upper (in /home/emi/Área de Trabalho/exercicios-gerais/03_bibliotecas/bibli_05/Resultados/Emilly/completo/prog)
+==74282==    by 0x109395: main (in /home/emi/Área de Trabalho/exercicios-gerais/03_bibliotecas/bibli_05/Resultados/Emilly/completo/prog)
+==74282== 
+==74282== 
+==74282== HEAP SUMMARY:
+==74282==     in use at exit: 0 bytes in 0 blocks
+==74282==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==74282== 
+==74282== All heap blocks were freed -- no leaks are possible
+==74282== 
+==74282== Use --track-origins=yes to see where uninitialised values come from
+==74282== For lists of detected and suppressed errors, rerun with: -s
+==74282== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)

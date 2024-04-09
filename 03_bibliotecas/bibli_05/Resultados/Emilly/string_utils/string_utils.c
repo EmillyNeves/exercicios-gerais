@@ -1,10 +1,15 @@
-#include<stdio.h>
-#include"string_utils.h"
+#include <stdio.h>
+#include "string_utils.h"
 int string_length(char *str)
 {
     int i = 0;
-    while (str[i] != '\0')
+    while (1)
     {
+        if (str[i] != '\0')
+        {
+            i++;
+            break;
+        }
         i++;
     }
     return i;
@@ -38,7 +43,7 @@ void string_reverse(char *str)
 {
     char aux;
     int tam = string_length(str);
-    for (int i = 0; i <= tam/2; i++)
+    for (int i = 0; i <= tam / 2; i++)
     {
         aux = str[i];
         str[tam - i] = aux;

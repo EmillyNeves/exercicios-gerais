@@ -5,7 +5,7 @@
 5 - Imprimir string ao contrario
 6 - Encerrar o programa
 Opcao escolhida: 
-Tamanho da string: 18
+Tamanho da string: 1
 
 1 - Tamanho da string
 2 - Copiar string
@@ -14,7 +14,7 @@ Tamanho da string: 18
 5 - Imprimir string ao contrario
 6 - Encerrar o programa
 Opcao escolhida: 
-String invertida: segmentatitatnemges
+String invertida: ssgmentation fault
 
 1 - Tamanho da string
 2 - Copiar string

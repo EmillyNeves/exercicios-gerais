@@ -1,1 +1,54 @@
-valgrind: Resultados/Emilly/completo/prog: No such file or directory
+H-e-l-l-o- -w-o-r-l-d-!-
+-1 - Tamanho da string
+2 - Copiar string
+3 - Converter string para letras maiusculas
+4 - Converter string para letras minusculas
+5 - Imprimir string ao contrario
+6 - Encerrar o programa
+Opcao escolhida: 
+Tamanho da string: -1
+
+1 - Tamanho da string
+2 - Copiar string
+3 - Converter string para letras maiusculas
+4 - Converter string para letras minusculas
+5 - Imprimir string ao contrario
+6 - Encerrar o programa
+Opcao escolhida: 
+String copiada: Hello world!
+
+
+1 - Tamanho da string
+2 - Copiar string
+3 - Converter string para letras maiusculas
+4 - Converter string para letras minusculas
+5 - Imprimir string ao contrario
+6 - Encerrar o programa
+Opcao escolhida: 
+String convertida para maiusculas: (ELLO
+
+1 - Tamanho da string
+2 - Copiar string
+3 - Converter string para letras maiusculas
+4 - Converter string para letras minusculas
+5 - Imprimir string ao contrario
+6 - Encerrar o programa
+Opcao escolhida: 
+String convertida para minusculas: Hello
+
+1 - Tamanho da string
+2 - Copiar string
+3 - Converter string para letras maiusculas
+4 - Converter string para letras minusculas
+5 - Imprimir string ao contrario
+6 - Encerrar o programa
+Opcao escolhida: 
+String invertida: HHllo
+
+1 - Tamanho da string
+2 - Copiar string
+3 - Converter string para letras maiusculas
+4 - Converter string para letras minusculas
+5 - Imprimir string ao contrario
+6 - Encerrar o programa
+Opcao escolhida: 

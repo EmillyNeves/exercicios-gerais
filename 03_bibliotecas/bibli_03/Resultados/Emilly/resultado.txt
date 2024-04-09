@@ -6,12 +6,12 @@ Teste main
   - Valgrinds corretos: 6 de 6
 Nota de Emilly para o teste main: 3.34
 Teste completo
-  - Resultados corretos: 1 de 6
+  - Resultados corretos: 2 de 6
   - Valgrinds corretos: 6 de 6
-Nota de Emilly para o teste completo: .53
+Nota de Emilly para o teste completo: 1.09
 Teste data
-  - Resultados corretos: 1 de 6
+  - Resultados corretos: 2 de 6
   - Valgrinds corretos: 6 de 6
-Nota de Emilly para o teste data: .53
-Nota de Emilly: 0+(.53)+(3.34)+(.53)
-Nota de Emilly: 4.40
+Nota de Emilly para o teste data: 1.09
+Nota de Emilly: 0+(3.34)+(1.09)+(1.09)
+Nota de Emilly: 5.52

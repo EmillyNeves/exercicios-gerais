@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include "data.h"
-int verificaDataValida(int dia, int mes, int ano)
+
+int verificaBissexto(int ano)
+{
+    return (ano % 400 == 0 || (ano % 4 == 0 && ano % 100 != 0));
+}
+
+
+int verificaDataValida(int dia, int mes, int ano)//ok
 {
     if (mes < 1 || mes > 12)
         return 0;
@@ -35,23 +42,18 @@ void imprimeMesExtenso(int mes)
         printf("Outubro");
     else if (mes == 11)
         printf("Novembro");
-    else
+    else if (mes == 12)
         printf("Dezembro");
 }
 
-void imprimeDataExtenso(int dia, int mes, int ano)
-{
+
+void imprimeDataExtenso(int dia, int mes, int ano){
     printf("%02d de ", dia);
     imprimeMesExtenso(mes);
-    printf(" de  %04d\n", ano);
+    printf(" de %04d\n", ano);
 }
 
-int verificaBissexto(int ano)
-{
-    return (ano % 400 == 0 || (ano % 4 == 0 && ano % 100 != 0));
-}
-
-int numeroDiasMes(int mes, int ano)
+int numeroDiasMes(int mes, int ano)//ok
 {
     if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12)
         return 31;
@@ -79,13 +81,20 @@ int comparaData(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2)
             return 1;
     }
     else if (ano1 < ano2)
-        return 1;
-    return -1;
+        return -1;
+    else if(mes1==mes2){
+        if(dia1<dia2)
+        return -1;
+    }
+    return 1;
 }
 
-int calculaDiasAteMes(int mes, int ano)
-{
-    return numeroDiasMes(mes, ano);
+int calculaDiasAteMes(int mes, int ano){
+    int dias=0, i;
+    for(i=1; i<mes; i++){
+        dias += numeroDiasMes(i, ano);
+    }
+    return dias;
 }
 
 int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2)

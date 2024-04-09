@@ -119,14 +119,14 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta completo / Caso 5:
  - Arquivo de output gerado: Resultados/Emilly/completo/Casos/5/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 6:
  - Arquivo de output gerado: Resultados/Emilly/completo/Casos/6/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta completo (máximo 3.33) - 10.00 de 60 - 16.00% de 3.33: .53.
+ - Nota para a pasta completo (máximo 3.33) - 20.00 de 60 - 33.00% de 3.33: 1.09.
  -----
  - Pasta data / Caso 1:
  - Arquivo de output gerado: Resultados/Emilly/data/Casos/1/result_valgrind.txt.
@@ -151,14 +151,14 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta data / Caso 5:
  - Arquivo de output gerado: Resultados/Emilly/data/Casos/5/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta data / Caso 6:
  - Arquivo de output gerado: Resultados/Emilly/data/Casos/6/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta data (máximo 3.33) - 10.00 de 60 - 16.00% de 3.33: .53.
+ - Nota para a pasta data (máximo 3.33) - 20.00 de 60 - 33.00% de 3.33: 1.09.
  -----
 
 #######################################
@@ -175,15 +175,15 @@ Aluno: Emilly
  - Valgrinds corretos: 6 de 6
  - Nota de Emilly para o teste main: 3.34
  - Teste completo
- - Resultados corretos: 1 de 6
+ - Resultados corretos: 2 de 6
  - Valgrinds corretos: 6 de 6
- - Nota de Emilly para o teste completo: .53
+ - Nota de Emilly para o teste completo: 1.09
  - Teste data
- - Resultados corretos: 1 de 6
+ - Resultados corretos: 2 de 6
  - Valgrinds corretos: 6 de 6
- - Nota de Emilly para o teste data: .53
- - Nota de Emilly: 0+(.53)+(3.34)+(.53)
- - Nota de Emilly: 4.40
+ - Nota de Emilly para o teste data: 1.09
+ - Nota de Emilly: 0+(3.34)+(1.09)+(1.09)
+ - Nota de Emilly: 5.52
 
 ----------------------------------------------------------------------------
 

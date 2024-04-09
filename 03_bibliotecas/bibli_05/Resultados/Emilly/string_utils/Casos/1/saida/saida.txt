@@ -5,7 +5,7 @@
 5 - Imprimir string ao contrario
 6 - Encerrar o programa
 Opcao escolhida: 
-Tamanho da string: 12
+Tamanho da string: 1
 
 1 - Tamanho da string
 2 - Copiar string
@@ -41,7 +41,7 @@ String convertida para minusculas: Hello
 5 - Imprimir string ao contrario
 6 - Encerrar o programa
 Opcao escolhida: 
-String invertida: HelleHWORLD
+String invertida: HHllo
 
 1 - Tamanho da string
 2 - Copiar string

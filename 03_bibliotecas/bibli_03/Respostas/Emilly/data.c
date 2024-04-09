@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include "data.h"
+
+int verificaBissexto(int ano)
+{
+    return (ano % 400 == 0 || (ano % 4 == 0 && ano % 100 != 0));
+}
+
+
 int verificaDataValida(int dia, int mes, int ano)
 {
     if (mes < 1 || mes > 12)
@@ -35,20 +42,15 @@ void imprimeMesExtenso(int mes)
         printf("Outubro");
     else if (mes == 11)
         printf("Novembro");
-    else
+    else if (mes == 12)
         printf("Dezembro");
 }
 
-void imprimeDataExtenso(int dia, int mes, int ano)
-{
+
+void imprimeDataExtenso(int dia, int mes, int ano){
     printf("%02d de ", dia);
     imprimeMesExtenso(mes);
-    printf(" de  %04d\n", ano);
-}
-
-int verificaBissexto(int ano)
-{
-    return (ano % 400 == 0 || (ano % 4 == 0 && ano % 100 != 0));
+    printf(" de %04d\n", ano);
 }
 
 int numeroDiasMes(int mes, int ano)
@@ -79,53 +81,89 @@ int comparaData(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2)
             return 1;
     }
     else if (ano1 < ano2)
-        return 1;
-    return -1;
+        return -1;
+    else if(mes1==mes2){
+        if(dia1<dia2)
+        return -1;
+    }
+    return 1;
 }
 
-int calculaDiasAteMes(int mes, int ano)
-{
-    return numeroDiasMes(mes, ano);
+int calculaDiasAteMes(int mes, int ano){
+    int dias=0, i;
+    for(i=1; i<mes; i++){
+        dias += numeroDiasMes(i, ano);
+    }
+    return dias;
 }
 
-int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2)
-{
-    int qtdDias = 0;
-    if (comparaData(dia1, mes1, ano1, dia2, mes2, ano2) == -1)
-    {
-        while (qtdDias != dia2 && mes1 != mes2 && ano1 != ano2)
-        {
-            dia1++;
-            qtdDias++;
-            if (dia1 > numeroDiasMes(mes1, ano1))
-            {
-                dia1 = 1;
-                mes1++;
-                if (mes1 > 12)
-                {
-                    mes1 = 1;
-                    ano1++;
-                }
-            }
-        }
+int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2){
+    int resp, difano, difmes, difdia, dias=0, i, j;
+    resp = comparaData(dia1, mes1, ano1, dia2, mes2, ano2);
+    if(resp == 0){
+    	return 0;
     }
-    else if (comparaData(dia1, mes1, ano1, dia2, mes2, ano2) == 1)
-    {
-        while (qtdDias != dia2 && mes1 != mes2 && ano1 != ano2)
-        {
-            dia2++;
-            qtdDias++;
-            if (dia2 > numeroDiasMes(mes2, ano2))
-            {
-                dia2 = 1;
-                mes2++;
-                if (mes2 > 12)
-                {
-                    mes2 = 1;
-                    ano2++;
-                }
-            }
-        }
+    if(resp == 1){
+    	difano = ano1-ano2;
+    	if(difano == 0){
+    	    difmes = mes1-mes2;
+    	    if(difmes == 0){
+    	    	difdia = dia1 - dia2;
+    	    	dias = difdia;
+    	    }
+    	    else{
+    	    	dias = dia1;
+    	    	difdia = numeroDiasMes(mes2, ano2) - dia2;
+    	    	dias += difdia;
+    	    	for(i=mes2+1; i<mes1; i++){
+    	    	    dias += numeroDiasMes(i, ano2);
+    	    	}
+    	    }
+    	}
+    	else{
+    	    for(j=ano2; j<ano1; j++){
+    	    	for(i=1; i<=12; i++){
+    	    	    dias += numeroDiasMes(i, j);
+    	    	}
+    	    }
+    	    difdia = calculaDiasAteMes(mes1, ano1);
+    	    dias += difdia;
+    	    dias += dia1;
+    	    difdia = calculaDiasAteMes(mes2, ano2);
+    	    dias -= difdia;
+    	    dias -= dia2;
+    	}
     }
-    return qtdDias;
+    else if(resp == -1){
+    	difano = ano2-ano1;
+    	if(difano == 0){
+    	    difmes = mes2-mes1;
+    	    if(difmes == 0){
+    	    	difdia = dia2 - dia1;
+    	    	dias = difdia;
+    	    }
+    	    else{
+    	    	dias = dia2;
+    	    	difdia = numeroDiasMes(mes1, ano1) - dia1;
+    	    	dias += difdia;
+    	    	for(i=mes1+1; i<mes2; i++){
+    	    	    dias += numeroDiasMes(i, ano1);
+    	    	}
+    	    }
+    	}
+    	else{
+    	    for(j=ano1; j<ano2; j++){
+    	    	for(i=1; i<=12; i++){
+    	    	    dias += numeroDiasMes(i, j);
+    	    	}
+    	    }
+    	    difdia = calculaDiasAteMes(mes2, ano2);
+    	    dias += difdia;
+    	    dias += dia2;
+    	    difdia = calculaDiasAteMes(mes1, ano1);
+    	    dias -= difdia;
+    	    dias -= dia1;
+    	}
+    }
+    return dias;
 }

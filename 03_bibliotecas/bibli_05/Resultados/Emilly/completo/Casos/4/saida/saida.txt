@@ -1,1 +1,27 @@
-valgrind: Resultados/Emilly/completo/prog: No such file or directory
+s-e-g-m-e-n-t-a-t-i-o-n- -f-a-u-l-t-
+-1 - Tamanho da string
+2 - Copiar string
+3 - Converter string para letras maiusculas
+4 - Converter string para letras minusculas
+5 - Imprimir string ao contrario
+6 - Encerrar o programa
+Opcao escolhida: 
+Tamanho da string: -1
+
+1 - Tamanho da string
+2 - Copiar string
+3 - Converter string para letras maiusculas
+4 - Converter string para letras minusculas
+5 - Imprimir string ao contrario
+6 - Encerrar o programa
+Opcao escolhida: 
+String invertida: ssgmentation fault
+
+
+1 - Tamanho da string
+2 - Copiar string
+3 - Converter string para letras maiusculas
+4 - Converter string para letras minusculas
+5 - Imprimir string ao contrario
+6 - Encerrar o programa
+Opcao escolhida: 
