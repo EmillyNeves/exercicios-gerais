@@ -1,0 +1,146 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Emilly
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Emilly:
+ - Diretório Resultados/Emilly criado com sucesso!
+ - Diretório Resultados/Emilly/main criado com sucesso!
+ - Diretório Resultados/Emilly/completo criado com sucesso!
+ - Diretório Resultados/Emilly/loja criado com sucesso!
+ - Diretório Resultados/Emilly/vendedor criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Emilly/loja.c' encontrado!
+ - Arquivo esperado 'Respostas/Emilly/loja.h' encontrado!
+ - Arquivo esperado 'Respostas/Emilly/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Emilly/vendedor.c' encontrado!
+ - Arquivo esperado 'Respostas/Emilly/vendedor.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Emilly/main
+ - Copiando os Includes/loja.h Includes/vendedor.h do professor para a pasta Resultados/Emilly/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Emilly/main
+ - Removendo o main.o do professor da pasta Resultados/Emilly/main
+ - Copiando o Respostas/Emilly/main.c do aluno para a pasta Resultados/Emilly/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Emilly/completo
+ - Copiando os Respostas/Emilly/loja.c do aluno para a pasta Resultados/Emilly/completo
+ - Copiando os Respostas/Emilly/loja.h do aluno para a pasta Resultados/Emilly/completo
+ - Copiando os Respostas/Emilly/main.c do aluno para a pasta Resultados/Emilly/completo
+ - Copiando os Respostas/Emilly/vendedor.c do aluno para a pasta Resultados/Emilly/completo
+ - Copiando os Respostas/Emilly/vendedor.h do aluno para a pasta Resultados/Emilly/completo
+ - Pasta loja:
+ - Copiando os Casos de teste para a pasta Resultados/Emilly/loja
+ - Copiando os Includes/loja.h Includes/vendedor.h do professor para a pasta Resultados/Emilly/loja
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Emilly/loja
+ - Removendo o loja.o do professor da pasta Resultados/Emilly/loja
+ - Copiando o Respostas/Emilly/loja.c do aluno para a pasta Resultados/Emilly/loja
+ - Pasta vendedor:
+ - Copiando os Casos de teste para a pasta Resultados/Emilly/vendedor
+ - Copiando os Includes/loja.h Includes/vendedor.h do professor para a pasta Resultados/Emilly/vendedor
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Emilly/vendedor
+ - Removendo o vendedor.o do professor da pasta Resultados/Emilly/vendedor
+ - Copiando o Respostas/Emilly/vendedor.c do aluno para a pasta Resultados/Emilly/vendedor
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Emilly/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Emilly/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta loja ok!
+ - Arquivo de output gerado: Resultados/Emilly/loja/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta vendedor ok!
+ - Arquivo de output gerado: Resultados/Emilly/vendedor/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Emilly/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Emilly/completo/result_linking.txt
+ - Pasta loja:
+ - Gerando o binário prog linkando com o(s) arquivo(s) loja/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Emilly/loja/result_linking.txt
+ - Pasta vendedor:
+ - Gerando o binário prog linkando com o(s) arquivo(s) vendedor/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Emilly/vendedor/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Emilly/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 2.50) - 10.00 de 10 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Emilly/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.50) - 10.00 de 10 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta loja / Caso 1:
+ - Arquivo de output gerado: Resultados/Emilly/loja/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta loja (máximo 2.50) - 10.00 de 10 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta vendedor / Caso 1:
+ - Arquivo de output gerado: Resultados/Emilly/vendedor/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta vendedor (máximo 2.50) - 10.00 de 10 - 100.00% de 2.50: 2.50.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Emilly
+ - Arquivos Esperados Corretos: 5 de 5
+ - Pastas Compiladas Corretamente: 4 de 4 
+ - Pastas Linkadas Corretamente: 4 de 4
+ - Teste main
+ - Resultados corretos: 1 de 1
+ - Valgrinds corretos: 1 de 1
+ - Nota de Emilly para o teste main: 2.50
+ - Teste completo
+ - Resultados corretos: 1 de 1
+ - Valgrinds corretos: 1 de 1
+ - Nota de Emilly para o teste completo: 2.50
+ - Teste loja
+ - Resultados corretos: 1 de 1
+ - Valgrinds corretos: 1 de 1
+ - Nota de Emilly para o teste loja: 2.50
+ - Teste vendedor
+ - Resultados corretos: 1 de 1
+ - Valgrinds corretos: 1 de 1
+ - Nota de Emilly para o teste vendedor: 2.50
+ - Nota de Emilly: 0+(2.50)+(2.50)+(2.50)+(2.50)
+ - Nota de Emilly: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

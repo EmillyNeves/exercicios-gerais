@@ -1,0 +1,20 @@
+==192032== Memcheck, a memory error detector
+==192032== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==192032== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==192032== Command: Resultados/Emilly/empresa/prog Resultados/Emilly/empresa/Casos/5
+==192032== Parent PID: 192031
+==192032== 
+==192032== Conditional jump or move depends on uninitialised value(s)
+==192032==    at 0x1094A0: leEmpresa (in /home/emi/Documentos/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Emilly/empresa/prog)
+==192032==    by 0x109B98: main (in /home/emi/Documentos/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Emilly/empresa/prog)
+==192032== 
+==192032== 
+==192032== HEAP SUMMARY:
+==192032==     in use at exit: 0 bytes in 0 blocks
+==192032==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==192032== 
+==192032== All heap blocks were freed -- no leaks are possible
+==192032== 
+==192032== Use --track-origins=yes to see where uninitialised values come from
+==192032== For lists of detected and suppressed errors, rerun with: -s
+==192032== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

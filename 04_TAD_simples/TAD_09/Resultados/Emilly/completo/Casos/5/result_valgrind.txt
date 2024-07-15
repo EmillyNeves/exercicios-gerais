@@ -1,0 +1,20 @@
+==191431== Memcheck, a memory error detector
+==191431== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==191431== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==191431== Command: Resultados/Emilly/completo/prog Resultados/Emilly/completo/Casos/5
+==191431== Parent PID: 191430
+==191431== 
+==191431== Conditional jump or move depends on uninitialised value(s)
+==191431==    at 0x1094A0: leEmpresa (in /home/emi/Documentos/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Emilly/completo/prog)
+==191431==    by 0x109B99: main (in /home/emi/Documentos/exercicios-gerais/04_TAD_simples/TAD_09/Resultados/Emilly/completo/prog)
+==191431== 
+==191431== 
+==191431== HEAP SUMMARY:
+==191431==     in use at exit: 0 bytes in 0 blocks
+==191431==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==191431== 
+==191431== All heap blocks were freed -- no leaks are possible
+==191431== 
+==191431== Use --track-origins=yes to see where uninitialised values come from
+==191431== For lists of detected and suppressed errors, rerun with: -s
+==191431== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

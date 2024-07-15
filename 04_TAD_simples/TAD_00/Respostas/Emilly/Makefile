@@ -1,2 +1,2 @@
 all:
-	gcc *c -o main
+	gcc *c -o main -lm
