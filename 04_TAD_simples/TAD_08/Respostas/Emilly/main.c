@@ -26,9 +26,7 @@ int main()
     ordenaPorMediaDepartamentos(departamentos, qtdDep);
 
     for (int i = 0; i < qtdDep; i++)
-    {
         imprimeAtributosDepartamento(departamentos[i]);
-    }
 
     return 0;
 }
