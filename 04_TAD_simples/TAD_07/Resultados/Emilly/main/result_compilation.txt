@@ -1,0 +1,4 @@
+main.c: In function ‘main’:
+main.c:23:9: warning: unused variable ‘compara’ [-Wunused-variable]
+   23 |     int compara = ComparaData(data1, data2);
+      |         ^~~~~~~

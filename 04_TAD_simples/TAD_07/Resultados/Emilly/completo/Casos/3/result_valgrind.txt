@@ -1,0 +1,15 @@
+==22410== Memcheck, a memory error detector
+==22410== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==22410== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==22410== Command: Resultados/Emilly/completo/prog Resultados/Emilly/completo/Casos/3
+==22410== Parent PID: 22409
+==22410== 
+==22410== 
+==22410== HEAP SUMMARY:
+==22410==     in use at exit: 0 bytes in 0 blocks
+==22410==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==22410== 
+==22410== All heap blocks were freed -- no leaks are possible
+==22410== 
+==22410== For lists of detected and suppressed errors, rerun with: -s
+==22410== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
