@@ -1,0 +1,6 @@
+==112457== Memcheck, a memory error detector
+==112457== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==112457== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==112457== Command: Resultados/Emilly/completo/prog Resultados/Emilly/completo/Casos/6
+==112457== Parent PID: 112456
+==112457== 

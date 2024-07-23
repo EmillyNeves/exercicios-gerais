@@ -1,0 +1,6 @@
+==113244== Memcheck, a memory error detector
+==113244== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==113244== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==113244== Command: Resultados/Emilly/evento/prog Resultados/Emilly/evento/Casos/6
+==113244== Parent PID: 113243
+==113244== 

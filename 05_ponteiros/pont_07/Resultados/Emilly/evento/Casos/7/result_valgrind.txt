@@ -1,0 +1,26 @@
+==113348== Memcheck, a memory error detector
+==113348== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==113348== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==113348== Command: Resultados/Emilly/evento/prog Resultados/Emilly/evento/Casos/7
+==113348== Parent PID: 113347
+==113348== 
+==113348== Conditional jump or move depends on uninitialised value(s)
+==113348==    at 0x10937A: trocarDataEvento (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/evento/prog)
+==113348==    by 0x1096D1: main (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/evento/prog)
+==113348== 
+==113348== Conditional jump or move depends on uninitialised value(s)
+==113348==    at 0x109387: trocarDataEvento (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/evento/prog)
+==113348==    by 0x1096D1: main (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/evento/prog)
+==113348== 
+==113348== Use of uninitialised value of size 8
+==113348==    at 0x1093B0: trocarDataEvento (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/evento/prog)
+==113348==    by 0x1096D1: main (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/evento/prog)
+==113348== 
+==113348== Use of uninitialised value of size 8
+==113348==    at 0x1093C9: trocarDataEvento (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/evento/prog)
+==113348==    by 0x1096D1: main (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/evento/prog)
+==113348== 
+==113348== Use of uninitialised value of size 8
+==113348==    at 0x1093E2: trocarDataEvento (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/evento/prog)
+==113348==    by 0x1096D1: main (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/evento/prog)
+==113348== 

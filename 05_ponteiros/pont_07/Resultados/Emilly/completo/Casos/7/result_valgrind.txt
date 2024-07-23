@@ -1,0 +1,26 @@
+==112550== Memcheck, a memory error detector
+==112550== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==112550== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==112550== Command: Resultados/Emilly/completo/prog Resultados/Emilly/completo/Casos/7
+==112550== Parent PID: 112549
+==112550== 
+==112550== Conditional jump or move depends on uninitialised value(s)
+==112550==    at 0x10937A: trocarDataEvento (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/completo/prog)
+==112550==    by 0x1096D1: main (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/completo/prog)
+==112550== 
+==112550== Conditional jump or move depends on uninitialised value(s)
+==112550==    at 0x109387: trocarDataEvento (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/completo/prog)
+==112550==    by 0x1096D1: main (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/completo/prog)
+==112550== 
+==112550== Use of uninitialised value of size 8
+==112550==    at 0x1093B0: trocarDataEvento (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/completo/prog)
+==112550==    by 0x1096D1: main (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/completo/prog)
+==112550== 
+==112550== Use of uninitialised value of size 8
+==112550==    at 0x1093C9: trocarDataEvento (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/completo/prog)
+==112550==    by 0x1096D1: main (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/completo/prog)
+==112550== 
+==112550== Use of uninitialised value of size 8
+==112550==    at 0x1093E2: trocarDataEvento (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/completo/prog)
+==112550==    by 0x1096D1: main (in /home/emi/Área de Trabalho/UFES/Prog 2/exercicios-gerais/05_ponteiros/pont_07/Resultados/Emilly/completo/prog)
+==112550== 
