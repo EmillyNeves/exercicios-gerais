@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include "utils.h"
 
-// Defina e implemente TrocaInterios
-
 int main()
 {
     int n1, n2;

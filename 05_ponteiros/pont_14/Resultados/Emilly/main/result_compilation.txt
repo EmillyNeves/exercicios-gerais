@@ -1,0 +1,10 @@
+main.c: In function ‘main’:
+main.c:16:55: warning: unused variable ‘text2’ [-Wunused-variable]
+   16 |     char text0[30] = "Salvar", text1[30] = "Excluir", text2[30] = "Opcoes";
+      |                                                       ^~~~~
+main.c:16:32: warning: unused variable ‘text1’ [-Wunused-variable]
+   16 |     char text0[30] = "Salvar", text1[30] = "Excluir", text2[30] = "Opcoes";
+      |                                ^~~~~
+main.c:16:10: warning: unused variable ‘text0’ [-Wunused-variable]
+   16 |     char text0[30] = "Salvar", text1[30] = "Excluir", text2[30] = "Opcoes";
+      |          ^~~~~

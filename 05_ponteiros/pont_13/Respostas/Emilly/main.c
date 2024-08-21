@@ -2,7 +2,7 @@
 #include "rolagem.h"
 int main()
 {
-    int tempo, tamDis;
+    int tempo, tamQTD;
     
 
 
